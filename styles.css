@@ -85,3 +85,37 @@ svg {
 @media(max-width:560px){.membership-callout{grid-template-columns:1fr;padding:18px}.membership-actions{grid-column:1;grid-template-columns:1fr}}
 .outdoor-chapter>div:nth-of-type(1){padding:22px 24px;background:rgba(20,48,41,.84);border:1px solid rgba(244,237,219,.65);box-shadow:5px 6px 0 rgba(12,28,24,.28);backdrop-filter:blur(3px)}
 @media(max-width:560px){.outdoor-chapter>div:nth-of-type(1){left:20px;width:calc(100% - 40px);padding:18px}.outdoor-chapter h2{font-size:48px}}
+
+/* Readable production type scale */
+.gym-header nav{font-size:11px}
+.header-caption{font-size:10px}
+.gym-title small{font-size:11px}
+.gym-title p{font-size:15px}
+.gym-credit{font-size:10px}
+.quick-facts article>span{font-size:10px}
+.quick-facts article h2{font-size:30px}
+.quick-facts article p,.quick-facts article address{font-size:14px;line-height:1.55}
+.quick-facts article>a{font-size:11px}
+.quick-facts .contact-buttons a{font-size:11px}
+.quick-facts .contact-buttons small{font-size:9px}
+.season-guide small{font-size:10px}
+.season-guide>header p{font-size:15px}
+.season-guide>header>a{font-size:11px}
+.membership-callout small{font-size:9px}
+.membership-callout p,.membership-callout li{font-size:14px}
+.membership-actions a{font-size:11px}
+.season-options h3{font-size:21px}
+.season-options p,.season-help{font-size:14px}
+.season-options article>span{font-size:10px}
+.gym-life-copy{grid-template-columns:1.1fr .7fr;align-items:end}
+.gym-life-copy small{grid-column:1;display:block;margin-bottom:12px;font-size:10px}
+.gym-life-copy h2{grid-column:1}
+.gym-life-copy p{grid-column:2;grid-row:1 / span 2;margin:0;font-size:15px}
+.gym-life figcaption{font-size:18px}
+.outdoor-chapter small{font-size:10px}
+.outdoor-chapter p{font-size:15px}
+.outdoor-chapter a{font-size:11px}
+.gym-footer{font-size:11px}
+
+@media(max-width:900px){.gym-life-copy{grid-template-columns:1fr;gap:0}.gym-life-copy small,.gym-life-copy h2,.gym-life-copy p{grid-column:1;grid-row:auto}.gym-life-copy p{margin-top:18px}}
+@media(max-width:560px){.header-caption{font-size:8px}.gym-title small{font-size:9px}.quick-facts article h2{font-size:27px}.season-guide>header p,.membership-callout p,.membership-callout li,.season-options p,.season-help,.gym-life-copy p,.outdoor-chapter p{font-size:13px}}
