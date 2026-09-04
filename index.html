@@ -2,39 +2,57 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Les Grimpeurs de Pen-Hir — La falaise</title>
+  <title>Les Grimpeurs de Pen-Hir — Mur d'escalade de Camaret-sur-Mer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Fraunces:opsz,wght@9..144,600;9..144,800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&amp;family=DM+Mono:wght@400;500&amp;family=Libre+Franklin:wght@500;800&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
 </head>
-<body class="cliff-page">
-  <header class="map-header"><a class="map-logo" href="#top">GRIMPEURS <i>DE PEN-HIR</i></a><p>Club d'escalade · Camaret-sur-Mer</p><nav><a href="#voie-apprendre">Apprendre</a><a href="#voie-club">Le club</a><a href="#voie-sorties">Sorties</a></nav><a class="map-join" href="#voie-rejoindre">Nous rejoindre ↗</a></header>
-  <main id="top" class="cliff-scroll" aria-label="Panorama interactif des falaises de Pen-Hir">
-    <section class="cliff-panorama">
-      <div class="map-title"><span>48°16′20″ N · 4°37′27″ O</span><h1>La pointe<br>de Pen-Hir</h1><p>Un club pour apprendre à grimper<br>entre ciel, grès et Atlantique.</p></div>
-      <p class="scroll-note">Explorez la falaise →</p>
-      <svg class="cliff-art" viewBox="0 0 1800 900" preserveAspectRatio="none" aria-hidden="true">
-        <defs><pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="4" cy="7" r="1"/><circle cx="18" cy="14" r="1.3"/><path d="M7 21l5-2"/></pattern><filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="11" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="5"/></filter></defs>
-        <rect width="1800" height="900" class="sky"/>
-        <path class="far-stack" d="M1470 584l45-112 44 96 51-181 61 166 54-89 75 98v338h-330Z"/>
-        <path class="cliff-fill" d="M0 338C144 324 230 378 335 349c96-27 124-90 216-117 98-29 151 25 215 11 72-15 88-134 190-147 80-10 126 51 207 71 76 19 164-5 218 43 63 56 38 148 117 188 62 31 128-1 186 34 43 26 75 78 136 101v367H0Z"/>
-        <path class="cliff-line" filter="url(#rough)" d="M0 338C144 324 230 378 335 349c96-27 124-90 216-117 98-29 151 25 215 11 72-15 88-134 190-147 80-10 126 51 207 71 76 19 164-5 218 43 63 56 38 148 117 188 62 31 128-1 186 34 43 26 75 78 136 101"/>
-        <path class="cliff-line cliff-echo" d="M0 346C145 330 231 386 339 355c99-29 122-88 216-115 96-27 149 27 214 13 74-17 89-132 189-145 82-11 127 53 208 72 78 18 162-4 218 45 61 54 37 145 116 186 63 32 127 1 185 36 44 27 75 77 135 100"/>
-        <path class="strata" d="M85 412c145-29 204 27 315-17M438 328c70-12 108-64 177-59M735 310c88 4 127-88 204-111M1008 231c100 55 182-18 282 62M1329 313c71 35 30 100 126 145M1531 476c65-9 90 28 148 56"/>
-        <path class="sea" d="M0 650c140-31 253 29 390 0 152-32 260 28 420 0 168-29 270 27 431 0 177-30 325 34 559-4v254H0Z"/>
-        <path class="wave" d="M0 650c140-31 253 29 390 0 152-32 260 28 420 0 168-29 270 27 431 0 177-30 325 34 559-4M0 702c125-23 270 28 405 2 159-30 250 25 406 0 159-26 289 22 450-2 196-29 314 31 539 0"/>
-        <g class="route route-one"><path d="M542 244c-27 72 36 97 5 169-29 67-5 117-30 177"/><circle cx="542" cy="244" r="9"/></g>
-        <g class="route route-two"><path d="M965 98c-24 93 49 105 15 192-26 67 22 113-5 193-12 35-9 68-3 104"/><circle cx="965" cy="98" r="9"/></g>
-        <g class="route route-three"><path d="M1336 219c-47 52 22 100-14 159-30 49 9 90-14 154"/><circle cx="1336" cy="219" r="9"/></g>
-        <g class="route route-four"><path d="M1648 429c-35 34 0 71-31 112"/><circle cx="1648" cy="429" r="9"/></g>
-      </svg>
-      <article id="voie-apprendre" class="route-card route-card-one"><span>VOIE 01 · 4a</span><h2>Apprendre</h2><p>Premiers nœuds, assurage, lecture du rocher : chacun avance à son rythme, toujours avec quelqu'un.</p><a href="#">Comment débuter →</a></article>
-      <article id="voie-club" class="route-card route-card-two"><span>VOIE 02 · 5c</span><h2>Faire cordée</h2><p>Un club local pour trouver des partenaires, progresser ensemble et transmettre ce qu'on sait.</p><a href="#">Découvrir le club →</a></article>
-      <article id="voie-sorties" class="route-card route-card-three"><span>VOIE 03 · SORTIES</span><h2>Grimper dehors</h2><p>Des rendez-vous au fil des marées, de la météo et des envies.</p><time>14.09 · Pen-Hir · 9h</time><a href="#">Voir le carnet de sorties →</a></article>
-      <article id="voie-rejoindre" class="route-card route-card-four"><span>RELAIS</span><h2>Nous rejoindre</h2><p>Avec ou sans chaussons. Avec beaucoup ou très peu d'expérience.</p><a href="#">Adhérer via HelloAsso ↗</a></article>
-      <div class="climber climber-one" aria-hidden="true"><span></span><i></i></div><div class="climber climber-two" aria-hidden="true"><span></span><i></i></div>
-      <p class="map-key">—— sentier côtier &nbsp; ··· voie imaginaire &nbsp; ≋ niveau de la mer</p>
+<body class="gym-page">
+  <header class="gym-header"><a href="#top">LES GRIMPEURS <b>DE PEN-HIR</b></a><nav><a href="#infos">Infos</a><a href="#grimper">Comment grimper</a><a href="#salle">La salle</a><a href="#contact">Contact</a></nav><a class="gym-hello" href="https://www.helloasso.com/associations/les-grimpeurs-de-pen-hir" target="_blank" rel="noreferrer">Nous rejoindre ↗</a><span class="header-caption">Camaret-sur-Mer · entre le mur et les falaises</span><span class="header-gull" aria-hidden="true"><img src="assets/seagull-cc0.svg" alt=""></span></header>
+
+  <main id="top">
+    <section class="gym-hero">
+      <img src="assets/photos/gym-community.jpg" alt="Grimpeurs et assureurs réunis au pied du mur d'escalade communal de Camaret-sur-Mer">
+      <div class="gym-title"><small>CAMARET-SUR-MER · CLUB FFME</small><h1>On se retrouve<br><em>au mur.</em></h1><p>Pour grimper, apprendre et faire cordée.</p></div>
+      <p class="gym-credit">Le mur communal · ouvert en 2026</p>
     </section>
+
+    <section class="quick-facts" aria-label="Informations essentielles">
+      <article id="infos" class="info-association"><span>01 · LE CLUB</span><h2>L'association</h2><p><strong>Les Grimpeurs de Pen-Hir</strong> anime le mur communal de Camaret-sur-Mer, ouvert en 2026. Ce jeune club FFME propose de la grimpe libre, prépare des cours vers l'autonomie et organise ponctuellement des sorties en falaise.</p></article>
+      <article id="grimper" class="info-climbing"><span>02 · LES CRÉNEAUX</span><h2>Comment grimper ?</h2><p>Pour venir grimper, il faut être membre de l'association et avoir pris sa licence FFME. Les séances libres nécessitent au minimum un passeport jaune validé.</p><p>Pas encore de passeport ou complètement débutant ? Plusieurs parcours sont proposés dès septembre.</p><a href="#inscriptions">Trouver ma formule ↓</a></article>
+      <article id="salle" class="info-location"><span>03 · SUR PLACE</span><h2>Où est la salle ?</h2><address><strong>Salle omnisports</strong><br>Avenue de Büsum<br>29570 Camaret-sur-Mer</address><p>Juste devant le camping municipal du Lannic.</p><a href="https://www.openstreetmap.org/search?query=avenue%20de%20Busum%2029570%20Camaret-sur-Mer" target="_blank" rel="noreferrer">Voir sur la carte ↗</a></article>
+      <article id="contact" class="info-contact"><span>04 · NOUS TROUVER</span><h2>Contact</h2><p>Pour connaître le prochain créneau, poser une question ou rejoindre le club :</p><div class="contact-buttons"><a href="https://chat.whatsapp.com/EKMSxymjZ4uAJJz65uT7Za?s=sh&amp;p=a&amp;mlu=4" target="_blank" rel="noreferrer">Groupe WhatsApp <small>rejoindre la discussion ↗</small></a><a href="mailto:camaret.escalade@gmail.com">Nous écrire <small>camaret.escalade@gmail.com</small></a></div></article>
+    </section>
+
+    <section id="inscriptions" class="season-guide">
+      <header><small>SAISON 2026–2027</small><h2>Quelle formule<br>pour moi ?</h2><p>La nouvelle saison approche. Voici comment commencer à grimper selon votre expérience et votre niveau.</p><a href="https://chat.whatsapp.com/EKMSxymjZ4uAJJz65uT7Za?s=sh&amp;p=a&amp;mlu=4" target="_blank" rel="noreferrer">Calendrier et échanges sur WhatsApp ↗</a></header>
+      <aside class="membership-callout">
+        <div><small>ADHÉSIONS OUVERTES</small><h3>Rejoindre la cordée</h3><p>Les inscriptions aux Grimpeurs de Pen-Hir pour la saison à venir sont ouvertes sur HelloAsso.</p></div>
+        <ul><li><b>Licence</b> FFME</li><li><b>Cotisation</b> à l'association</li><li><b>Assurance</b> FFME : pour une pratique principalement en club, la formule Base constitue le choix le plus simple. Base+ et Base++ offrent surtout des plafonds d'indemnisation plus élevés.</li></ul>
+        <div class="membership-actions"><a href="https://www.helloasso.com/associations/les-grimpeurs-de-pen-hir" target="_blank" rel="noreferrer">S'inscrire sur HelloAsso ↗</a><a href="https://www.ffme.fr/ffme/licence/" target="_blank" rel="noreferrer">Comparer les assurances FFME ↗</a></div>
+      </aside>
+      <div class="season-options">
+        <article><span>01</span><div><h3>Passeport jaune validé</h3><p>Dès que votre adhésion et votre licence FFME sont prises, vous pouvez grimper en autonomie sur les créneaux du calendrier épinglé dans le groupe WhatsApp.</p></div></article>
+        <article><span>02</span><div><h3>Niveau jaune, passeport à valider</h3><p>Vous pouvez faire valider votre passeport sans cours préalable sur les créneaux indiqués « Passeports ». Il suffit d'avoir pris votre adhésion et votre licence FFME.</p></div></article>
+        <article><span>03</span><div><h3>Un peu de pratique</h3><p>Un stage de progression commence la semaine suivant le <strong>7 septembre 2026</strong>. Yannick évaluera votre niveau et le nombre de séances utiles : vous n'aurez peut-être pas besoin de suivre tout le stage.</p></div></article>
+        <article><span>04</span><div><h3>Débutant·e de plus de 16 ans</h3><p>Le stage débutants commence le <strong>7 septembre</strong> : deux séances par semaine pendant quatre semaines.</p><p class="season-warning">Places limitées · il faut pouvoir participer à l'ensemble des séances et se sentir prêt·e à progresser rapidement.</p></div></article>
+        <article><span>05</span><div><h3>Pas disponible en septembre ?</h3><p>Des cours débutants à l'année devraient pouvoir être proposés à partir de novembre.</p></div></article>
+      </div>
+      <p class="season-help">Vous avez déjà un peu de pratique mais vous hésitez entre plusieurs formules ? <a href="mailto:camaret.escalade@gmail.com">Écrivez-nous</a>, nous vous aiderons à choisir.</p>
+    </section>
+
+    <section class="gym-life">
+      <div class="gym-life-copy"><small>NOTRE TERRAIN DE JEU</small><h2>Notre mur.</h2><p><strong>300 m² de voies, 10 m de hauteur et 22 lignes</strong>, avec du dévers, un petit toit, de la dalle, du dièdre et des réouvertures régulières.</p></div>
+      <figure class="gym-photo-one"><img src="assets/photos/gym-belaying.jpg" alt="Deux grimpeurs sur le mur pendant que des membres les assurent"><figcaption>Au mur, chacun grimpe et chacun veille.</figcaption></figure>
+      <figure class="gym-photo-two"><img src="assets/photos/gym-climber.jpg" alt="Un grimpeur progresse sur le grand mur rouge et gris"><figcaption>Des voies pour essayer, rater et recommencer.</figcaption></figure>
+      <figure class="gym-photo-three"><img src="assets/photos/gym-closeup.jpg" alt="Un grimpeur évolue sur le mur sous le regard de son assureur"><figcaption>Prendre le temps de devenir autonome.</figcaption></figure>
+    </section>
+
+    <section class="outdoor-chapter">
+      <img src="assets/photos/community-over-sea.jpg" alt="Deux grimpeurs sur une vire au-dessus de la mer à Pen-Hir">
+      <div><small>QUAND ON SORT</small><h2>Pen-Hir<br>à l'horizon.</h2><p>Le club organise ponctuellement des sorties pour découvrir les falaises de Pen-Hir ou d'autres sites, dans un cadre adapté au niveau du groupe.</p><a href="#contact">Être prévenu de la prochaine sortie →</a></div>
+      <div class="outdoor-gull"><img src="assets/seagull-cc0.svg" alt=""></div><div class="outdoor-dolphin"><img src="assets/dolphin-cc0.svg" alt=""></div><div class="outdoor-seal" aria-label="Un phoque regarde hors de l'eau"><svg viewBox="0 0 90 80"><path d="M12 76c2-36 13-66 34-70 24-5 38 26 31 48-4 12-14 17-20 22Z"/><circle cx="39" cy="30" r="2"/><circle cx="60" cy="29" r="2"/><path d="M50 38l-4 4 7 0M33 41L8 36M34 47L6 50M64 41l23-8M64 47l25 2"/></svg></div>
+    </section>
+
   </main>
-  <footer class="map-footer"><p>Le rocher est un milieu vivant.</p><p>Observer · contourner · ne rien laisser</p><a href="variant.html">Voir la piste 02 — Ligne d'eau →</a></footer>
+  <footer class="gym-footer"><p>LES GRIMPEURS <b>DE PEN-HIR</b></p><p>Salle omnisports · Avenue de Büsum · Camaret-sur-Mer</p><div><a href="https://chat.whatsapp.com/EKMSxymjZ4uAJJz65uT7Za?s=sh&amp;p=a&amp;mlu=4" target="_blank" rel="noreferrer">WhatsApp</a><a href="mailto:camaret.escalade@gmail.com">E-mail</a><a href="https://www.helloasso.com/associations/les-grimpeurs-de-pen-hir" target="_blank" rel="noreferrer">HelloAsso</a></div><small>Maquette — créneaux et modalités à valider avant publication.</small></footer>
 </body></html>
