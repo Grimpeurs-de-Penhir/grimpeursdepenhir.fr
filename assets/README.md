@@ -7,12 +7,9 @@ Both illustrations may be copied, modified, and used commercially without attrib
 
 ## Project photography
 
-The files under `photos/` are resized copies of photographs supplied in `/Users/gabriel@uma.bot/Downloads/blah`:
+The outdoor photograph is a resized copy supplied in `/Users/gabriel@uma.bot/Downloads/blah`:
 
 - `community-over-sea.jpg` from `PXL_20230522_165630747.jpg`
-- `climber-over-water.jpg` from `PXL_20250506_110839093.jpg`
-- `rappel-sky.jpg` from `PXL_20250506_102830508.jpg`
-- `sunset-wall.jpg` from `PXL_20220921_180651249.jpg`
 
 Confirm ownership and permission for identifiable people before publishing.
 
