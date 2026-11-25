@@ -19,3 +19,8 @@ Gym photographs were supplied in `/Users/gabriel@uma.bot/Downloads/WhatsApp Unkn
 - `gym-belaying.jpg` from `WhatsApp Image 2026-08-30 at 13.01.29 (3).jpeg`
 - `gym-climber.jpg` from `WhatsApp Image 2026-08-30 at 13.01.29 (1).jpeg`
 - `gym-closeup.jpg` from `WhatsApp Image 2026-08-30 at 13.01.29.jpeg`
+
+## Partner logos
+
+- `logos/departement-finistere.png`: Département du Finistère logo (horizontal, quadri version for light backgrounds), resized to 480 px wide. Source: official logo pack at https://www.finistere.fr/logos-et-charte-de-visibilite/ (`Logos-CD29-format-.png-transparent.zip`).
+- `logos/camaret-sur-mer.png`: Mairie de Camaret-sur-Mer logo, as published in the header of https://www.camaret-sur-mer.fr/ (`/sites/default/files/logo-camaret-sur-mer.png`).

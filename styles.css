@@ -119,3 +119,6 @@ svg {
 
 @media(max-width:900px){.gym-life-copy{grid-template-columns:1fr;gap:0}.gym-life-copy small,.gym-life-copy h2,.gym-life-copy p{grid-column:1;grid-row:auto}.gym-life-copy p{margin-top:18px}}
 @media(max-width:560px){.header-caption{font-size:9px}.gym-title small{font-size:10px}.quick-facts article h2{font-size:27px}.season-guide>header p,.membership-callout p,.membership-callout li,.season-options p,.season-help,.gym-life-copy p,.outdoor-chapter p{font-size:13px}}
+/* Partner logos */
+.gym-footer>.gym-partners{grid-column:1/-1;display:flex;justify-content:flex-start;flex-wrap:wrap;align-items:center;gap:18px 40px;padding:22px 28px;background:#f5eedc;border-radius:6px}.gym-partners span{margin-right:12px;color:#45574e;letter-spacing:.08em}.gym-partners a{display:block;line-height:0}.gym-partners img{height:72px;width:auto}.gym-partners .logo-camaret{height:54px}
+@media(max-width:900px){.gym-footer>.gym-partners{gap:14px 28px;padding:18px 20px}.gym-partners span{flex-basis:100%;margin:0}.gym-partners img{height:60px}.gym-partners .logo-camaret{height:45px}}
